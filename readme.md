@@ -1,11 +1,11 @@
 # Developer Assignment
 
 ## Data Conversion
-[mobiux.in](https://www.mobiux.in/assignment/sales-data.txt) Proide the data in txt format so to parse the data into JSON. I have use custome file converter **convertTextFileToJson** which change txt format to JSON and create new file with .json extension.
+[mobiux.in](https://www.mobiux.in/assignment/sales-data.txt) The provided data is in text format and needs to be parsed into JSON format. To convert the text data to JSON, a custom file converter called convertTextFileToJson is used. This converter processes the text file and generates a new file with the .json extension, containing the converted data.
 
 
 ## APIs
-I have created 5 APIs
+The assignment includes the creation of five APIs, each serving a specific purpose. These APIs can be accessed by selecting the corresponding option:
 
 ```
     ***** Select an Option *****
@@ -18,13 +18,14 @@ I have created 5 APIs
 ```
 
 1. **calculateTotalSale**
-> This API find the total sales or total price of item.
+> This API calculates the total sales or total price of the items.
 
 2. **findMonthlyPopularItem**
-> This API find the popular item and return array of the muliple item which are polular in each months 
+> This API identifies the popular item(s) by finding the item(s) with the highest quantity sold in each month. It returns an array of multiple items that were popular in each month.
 
 3. **findMonthlyRevenueItems**
-> Finds the monthly revenue items by reading sales data from a JSON file. Return array of 
+> This API determines the items generating the most revenue in each month. It reads the sales data from a JSON file and returns an array containing the following information for each month:
+
     ```
         month: string,
         year: string,
@@ -33,14 +34,13 @@ I have created 5 APIs
     ```
 
 4. **findMonthlyOrderStats**
-> Finds the monthly order statistics for a specific item by reading sales data from a JSON file.
-    Ans this api take 2 Parameters
+> This API calculates the monthly order statistics for a specific item. It reads the sales data from a JSON file and takes two parameters:
     - @Params
-        - item : provide any item like *Death by Chocolate*
+        - item : provide any item like *Death by Chocolate* 
         - filePath : file path of the data.json file
 
 5. **calculateMonthlySale** 
-> Calculates the total sale value for a specific month and year by reading sales data from a JSON file.
+> This API calculates the total sale value for a specific month and year. It reads the sales data from a JSON file and takes three parameters:
    - @Params
        - filePath: string, 
        - year: number, 
