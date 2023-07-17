@@ -24,7 +24,7 @@ I have created 5 APIs
 > This API find the popular item and return array of the muliple item which are polular in each months 
 
 3. **findMonthlyRevenueItems**
-    > Finds the monthly revenue items by reading sales data from a JSON file. Return array of 
+> Finds the monthly revenue items by reading sales data from a JSON file. Return array of 
     ```
         month: string,
         year: string,
@@ -33,14 +33,14 @@ I have created 5 APIs
     ```
 
 4. **findMonthlyOrderStats**
-    > Finds the monthly order statistics for a specific item by reading sales data from a JSON file.
+> Finds the monthly order statistics for a specific item by reading sales data from a JSON file.
     Ans this api take 2 Parameters
     - @Params
         - item : provide any item like *Death by Chocolate*
         - filePath : file path of the data.json file
 
 5. **calculateMonthlySale** 
-   > Calculates the total sale value for a specific month and year by reading sales data from a JSON file.
+> Calculates the total sale value for a specific month and year by reading sales data from a JSON file.
    - @Params
        - filePath: string, 
        - year: number, 
