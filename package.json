@@ -1,0 +1,23 @@
+{
+  "name": "insureassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "file": "nodemon src/util/fileConverter.ts",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p .",
+    "start": "node build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "node-ts": "^6.0.1",
+    "readline": "^1.3.0"
+  }
+}
